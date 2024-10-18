@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+p {
+  color: #696871;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #19191b;
+}
+/* button {
+  background: #5454d4;
+  color: #fff;
+} */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#logo {
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo nav {
+  font-weight: 700;
+  font-size: 15px;
+  color: #19191b;
+  display: flex;
+  gap: 70px;
+}
+.logo button {
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 211px;
+  height: 60px;
+  background: #ff7143;
+  border-radius: 10px;
+  color: #fff;
+}
+#qwert {
+  padding-top: 40px;
+}
+.qwert {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.qwert-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.qwert-text h1 {
+  width: 450px;
+  font-weight: 600;
+  font-size: 80px;
+}
+.qwert-text p {
+  width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.qwert-text button {
+  width: 211px;
+  height: 60px;
+  border-radius: 10px;
+}
+#wert {
+  padding: 120px 0;
+}
+.wert {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.qwert-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.wert-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+.wert-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 500px;
+}
+.wert-text p {
+  width: 400px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.wert-text a {
+  font-weight: 700;
+  font-size: 17px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  text-align: center;
+}
+.box h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.box p {
+  width: 300px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#plan {
+  padding: 120px 0;
+}
+.plan-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.plan-top h1 {
+  width: 500px;
+  font-weight: 700;
+  font-size: 60px;
+}
+.plan-btn {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+}
+.plan-btn button {
+  width: 150px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #5454d4;
+  border-radius: 10px;
+}
+.plan-btn p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  background: #f7f7fb;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.plan {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  /* padding-bottom: 20px; */
+}
+.plan .plan-box {
+  border-radius: 10px;
+  padding: 50px 40px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  flex-direction: column;
+  background: #f8f8f8;
+  transition: 1s;
+}
+.plan .plan-box h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+.plan .plan-box:hover {
+  background: #ff7143;
+  transform: scale(1.1);
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #ffffff;
+  }
+  button {
+    background: #9f3919;
+  }
+}
+.plan .price {
+  line-height: 45px;
+  font-size: 16px;
+}
+.plan .plan-box button {
+  width: 260px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 17px;
+  color: #5454d4;
+  border: 20px;
+}
